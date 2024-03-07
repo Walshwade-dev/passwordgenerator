@@ -10,7 +10,40 @@
 
 </head>
 <body>
+    <nav class="flex items-center w-full h-[4rem] px-3">
+        <div class="mr-auto">
+            <h2 class="font-semibold text-xl">Pass_Gen</h2>
+        </div>
+        <div id="darkmode-toggle" class="mode-container relative flex items-center gap-[0.15rem] pl-[0.15rem] w-[5rem] h-[2rem] rounded-[3rem]">
+            <div id="toggle" class="absolute object-contain p-[0.1rem]">
+                <img id="sun-icon" class="hidden" src="/images/sun.png" alt="Toggle Icon">
+                <img id="moon-icon" src="/images/moon.png" alt="Toggle Icon">
+            </div>
+        </div>
+    </nav>
+    <main>
+        <!-- ====> The main body <==== start-->
+    <div class="main">
+        <h1>Generate a</h1>
+        <h2>random password</h2>
+
+        <p>Never use an insecure password again.</p>
+
+
+        <button id="generate-pass-btn">Generate passwords</button>
+        
+        <hr>
+        
+        <div class="pass-container">
+            <div id="generated-pass-container-one">
+            </div>
     
+            <div id="generated-pass-container-two">
+            </div>
+        </div>
+    </div>
+    <!-- ====> The main body <==== end-->
+    </main>
 </body>
 <script src="./index.js"></script>
 </html>
